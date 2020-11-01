@@ -1,0 +1,27 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Sony</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap-4.5.3/css/bootstrap.min.css' %}">
+
+</head>
+<body class="bg-color-main">
+<header>
+    <nav class="menu">
+        <ul class="container">
+            <li><a href="#"><img class="logo" src="{% static 'uploads/logo.png' %}"></a></li>
+        </ul>
+    </nav>
+</header>
+<section class="app container">
+    {% include 'app/includes/app.html' %}
+</section>
+
+<footer>
+    <p class="text-center">Copyright <a href="#">Myself </a>2020</p>
+</footer>
+</body>
+</html>

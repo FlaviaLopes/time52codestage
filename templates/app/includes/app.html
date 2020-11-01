@@ -1,0 +1,78 @@
+<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+
+    <div class="app-result">
+        {% load static %}
+        <img class="logo" src="{% static 'uploads/perfis/dancer.png' %}">
+        <span>
+                <p>hmmm você gosta de dançar! Confira a lista especial que preparamos pra você balançar o
+                esqueleto!</p>
+            </span>
+    </div>
+
+    <div class="app-chart">
+        <span>Dançante</span>
+        <div class="container">
+            <div class="progress2 progress-moved">
+                <div class="progress-bar2">
+                </div>
+            </div>
+        </div>
+        <span>Enérgica</span>
+        <div class="container">
+            <div class="progress2 progress-moved">
+                <div class="progress-bar3">
+                </div>
+            </div>
+        </div>
+        <span>Acústica</span>
+        <div class="container">
+            <div class="progress2 progress-moved">
+                <div class="progress-bar2">
+                </div>
+            </div>
+        </div>
+        <span>Positiva</span>
+        <div class="container">
+            <div class="progress2 progress-moved">
+                <div class="progress-bar2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="app-playlist">
+        <div class="row app-shows-list-item">
+            <a href="#">Clique aqui para acessar uma playlist criada especialmente para você!</a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="app-shows">
+        <div class="app-shows-header">
+            <p>Ei, talvez você goste de saber que {nome artista} tem algumas apresentações!</p>
+        </div>
+        <div class="app-shows-list float-left">
+
+            <div class="row app-shows-list-item">
+                <img src="{% static 'uploads/artists/djavan.jpg' %}" class="logo float-left clear"/>
+                <div class="container">
+                    <p class="float-left container">Djavan</p>
+                    <p class="float-left container">Teatro da Paz - Belém/PA</p>
+                    <p class="float-left container">22/02/2021, 20h</p>
+                </div>
+            </div>
+
+            <div class="row app-shows-list-item">
+                <img src="{% static 'uploads/artists/natiruts.jpg' %}" class="logo float-left clear"/>
+                <div class="container">
+                    <p class="float-left container">Natiruts</p>
+                    <p class="float-left container">Fundição Progresso - Rio de Janeiro/RJ</p>
+                    <p class="float-left container">10/02/2021, 22h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

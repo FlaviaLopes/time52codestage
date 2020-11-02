@@ -1,6 +1,6 @@
 #  Client Keys
-SPOTIPY_CLIENT_ID = "fe0d68927c804ef7a0d0cc3fa17ce096"
-SPOTIPY_CLIENT_SECRET = "941c645d1a0745e69cdd4fef29611f9b"
+SPOTIPY_CLIENT_ID = "id"
+SPOTIPY_CLIENT_SECRET = "secret"
 
 # Spotify URLS
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"

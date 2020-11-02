@@ -86,7 +86,11 @@ Quando terminar e quiser sair do ambiente basta rodar:
 
 
 > #### Leonardo Vieira (marketing) 
+<<<<<<< HEAD
 > ![leonardo](https://github.com/FlaviaLopes/time52codestage/blob/main/app/static/uploads/equipe/leonardo.png)
+=======
+> ![leonardo](https://github.com/FlaviaLopes/time52codestage/blob/main/app/static/uploads/equipe/leonardo.jpeg)
+>>>>>>> c1ca2f9ffd3a45a39da552cc1e45c0e542afaff0
 >
 > 
 >
